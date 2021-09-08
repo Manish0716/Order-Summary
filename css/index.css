@@ -6,9 +6,10 @@
   color: hsl(228, 45%, 44%);
 }
 body {
-  margin: 100px;
+  display: flex;
+  height: 98vh;
   padding: 0;
-  background-image: url("./images/pattern-background-desktop.svg");
+  background-image: url("../images/pattern-background-desktop.svg");
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   font-size: 16px;
@@ -19,7 +20,6 @@ body {
   width: 350px;
   height: 545px;
   margin: auto;
-
   background-color: white;
   border-radius: 15px;
 }
@@ -43,13 +43,10 @@ body {
   font-weight: 500;
   color: rgb(75, 194, 194);
 }
-
 .card-subscription {
   display: flex;
-
   background-color: hsl(225, 100%, 98%);
   height: 78px;
-  /* justify-content: center; */
   align-items: center;
   margin: 20px 35px 25px 35px;
   border-radius: 10px;
@@ -88,8 +85,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 20px 35px 20px 35px;
-  /* width: 280px;
-        height: 150px; */
 }
 .btn-payment {
   height: 35px;
